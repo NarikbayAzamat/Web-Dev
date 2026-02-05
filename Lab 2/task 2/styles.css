@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    text-decoration: none;
+}
+body {
+    margin: 32px auto;
+    max-width: 935px;
+    padding-bottom: 20px;
+    background-color: #fafafa;
+    color: #868585; 
+}
+
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.smartphone {
+    margin-left: -90px;
+}
+
+.smartphone .screen {
+    position: absolute;
+    margin: 25px 0 0 160px;
+}
+
+
+.form-area {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 15px;
+}
+
+.form-area .logo {
+    width: 355px;
+    padding: 40px 30px 0 90px;
+    margin-bottom: 0;
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-bottom: 0;
+}
+
+.form-area .logo img {
+    width: 170px;
+}
+
+.form-area form {
+    display: flex;
+    flex-direction: column;
+    width: 355px;
+    padding: 30px 0 20px 0;
+    align-items: center;
+    background-color: #ffffff; 
+    border: 1px solid #dbdbdb; 
+    border-top: 0;
+}
+
+.form-area form input {
+    border-radius: 4px;
+    width: 280px;
+}
+
+.form-area form input[type=email], 
+.form-area form input[type=password] {
+    padding: 13px 0 13px 4px;
+    margin-bottom: 5px;
+    border: 1px solid #dbdbdb; 
+    background-color: #fafafa; 
+    font-size: 11px;
+}
+
+.form-area form input[type=submit] {
+    padding: 5px 10px;
+    margin-top: 10px;
+    color: #ffffff;
+    background-color: #8cd6ec;
+    font-weight: 500;
+}
+
+.form-area form input[type=submit]:hover { 
+    background-color: #63c7e6;
+    cursor: pointer;
+}
+
+.other-option {
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0; 
+    color: #868585;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.other-option div {
+    width: 110px;
+    height: 1px;
+    background-color: #dbdbdb; 
+    margin: 6px 16px;
+}
+
+.options {
+    margin: 10px 0 0 0;
+    text-align: center;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.facebook svg{
+    color : rgb(0, 149, 246);
+}
+
+.options a{
+    color : rgb(0, 149, 246);
+    font-size: 14px;
+}
+
+.social {
+    color: #385185; 
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.social:hover { 
+    color: #3f37ad;
+}
+
+.forget {
+    margin-top: 22px;
+}
+
+.forget a {
+    color: #868585; 
+    font-size: 14px;
+}
+
+.noaccount {
+    width: 355px;
+    margin: 10px 0;
+    padding: 22px;
+    text-align: center;
+    background-color: #ffffff; 
+    border: 1px solid #dbdbdb; 
+    font-size: 14px;
+}
+
+.form-area .noaccount a {
+    color: #868585; 
+}
+
+.form-area .noaccount a span {
+    color: #63c7e6; 
+    font-weight: 700;
+}
+
+.form-area .apps {
+    text-align: center;
+    width: 355px;
+    margin-top: 10px;
+    color: #868585; 
+}
+
+.form-area .apps img {
+    width: 140px;
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    margin: 0 10px;
+    font-size: 14px;
+}
+
+footer a {
+    font-size: 14px;
+    color: #868585;
+    margin: 5px 4px;
+}
+
+footer .footer-content {
+    margin-bottom: 5px;
+}
+
+footer .copyright {
+    margin-top: 20px;
+}
+
+footer .copyright select {
+    background: none;
+    color: #868585; 
+}
