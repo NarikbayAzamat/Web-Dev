@@ -1,0 +1,9 @@
+a = int(input())
+
+if a == 1:
+    print(1) 
+else:
+    for i in range(2, a + 1):
+        if a % i == 0:
+            print(i)
+            break
